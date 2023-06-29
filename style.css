@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.main-header {
+    flex: 4;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header-links {
+    display: flex;
+    gap: 40px;
+    font-size: large;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:link, a:visited {
+    color: black;
+
+}
+
+a:hover, a:active {
+    color: grey;
+    background-color: black;
+    padding: 4px;
+}
