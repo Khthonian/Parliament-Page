@@ -98,8 +98,29 @@ a:hover, a:active {
 
 #sign-up {
     display: flex;
+    flex-direction: row;
     flex: 1;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.action-call {
+    flex: 1;
+    margin: auto;
+}
+
+#sign-up button {
+    margin: auto;
+    margin-left: 200px;
+    background-color: #dcc0a3;
+    border: 5px solid #a99783;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#sign-up button:hover, #sign-up button:focus {
+    border: 5px double #11232c;
 }
 
 img {
@@ -114,14 +135,6 @@ img {
     align-items: center;
     display: flex;
     font-size: larger;
-}
-
-.quote {
-
-}
-
-.quote-origin {
-
 }
 
 footer {
