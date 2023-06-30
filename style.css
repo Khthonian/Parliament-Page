@@ -1,24 +1,25 @@
-header, body, footer {
-    width: 1400px;
+header, .container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 body {
     background-color: #dcc0a3;
     color: #44545e;
-    max-width: 1400px;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0 auto;
     display: flex;
     flex-direction: column; 
     min-height: 100vh;
+    width: 100vw;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .main-header {
@@ -56,8 +57,77 @@ a:hover, a:active {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.sub-container {
+    display: flex;
+    flex: 1;
+}
+
+#hero, #quote {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a99783;
+    border-radius: 10px;
+    padding: 60px;
+    flex: 1;
+}
+
+#main-owl {
+    height: 300px;
+    width: auto;
+    vertical-align: auto;
+    margin: auto;
+}
+
+#gallery {
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+#gallery figure {
+    display: inline-block;
+    margin: auto;
+}
+
+#sign-up {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+    width: auto;
+    margin: 10px;
+    border: 10px solid #11232c;
+    border-radius: 25px;
+}
+
+#quote {
+    align-items: center;
+    display: flex;
+    font-size: larger;
+}
+
+.quote {
+
+}
+
+.quote-origin {
+
 }
 
 footer {
     margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #a99783;
 }
+
